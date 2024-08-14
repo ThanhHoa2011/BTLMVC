@@ -1,0 +1,66 @@
+﻿@using QLBHQLN.Models;
+@model List<QLBHQLN.Areas.Admin.AdViewModel.HoaDonDisplayVM>
+
+@{
+    ViewBag.Title = "AdminQLDH";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="order">
+    <div class="order-box">
+        <div class="content-box">
+            <p>Orders</p>
+            <br>
+            <table>
+                <tr>
+                    <th>Mã DH</th>
+                    <th>Tên KH</th>
+                    <th>Ngày ĐH</th>
+                    <th>Tổng Tiền</th>
+                    <th>Trạng Thái</th>
+                    <th>Xử Lý</th>
+                </tr>
+                <!-- Example static row, you can replace this with your data -->
+                @foreach (var item in Model)
+                {
+                    <tr class="edit">
+                        <td>@item.OrderId</td>
+                        <td>@item.Fullname</td>
+                        <td>@item.OrderDate</td>
+                        <td>@item.TotalPrice</td>
+                        <td>@item.status</td>
+                        <td class="edit">
+                            <button class="ed" onclick="updateOrderStatus('@item.OrderId', 'Approved')">Chấp Nhận</button>
+                            <button class="de" onclick="updateOrderStatus('@item.OrderId', 'Reject')">Từ Chối</button>
+                            @*<a href="@Url.Action("OrderDetailPage", "Admin", new { id = item.OrderId })">Detail</a>*@
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Div để chứa chi tiết đơn hàng -->
+<div id="order-detail-container" style="display:none;"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function updateOrderStatus(orderId, status) {
+    $.ajax({
+        url: '@Url.Action("EditOrders", "Admin")',
+        type: 'POST',
+        data: { id: orderId, status: status },
+        success: function(result) {
+            if (result.success) {
+                /*alert('Order status updated');*/
+                window.location.href = '@Url.Action("AdminQLDH", "Admin")';
+            } else {
+                alert(result.message);
+            }
+        },
+        error: function() {
+            alert('Error updating order status');
+        }
+    });
+}
+</script>

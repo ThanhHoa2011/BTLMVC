@@ -1,0 +1,51 @@
+﻿@using QLBHQLN.Models;
+@model List<Product>
+
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shares/_LayoutUser.cshtml";
+}
+<div class="container">
+    <header>
+        <h1>tất cả sản phẩm </h1>
+    </header>
+    <div class="list">
+        @foreach (var item1 in Model)
+        {
+            <div class="item">
+                <img src="~/images/@item1.ProductImage">
+                <div class="title">@item1.ProductName</div>
+                <div class="price">@item1.Price</div>
+                <a href="javascript:void(0);" class="btn add-to-cart" data-product-id="@item1.ProductId">thêm vào giỏ hàng</a>
+            </div>
+        }
+
+    </div>
+</div>
+<div class="card">
+    <h1><b>giỏ hàng</b></h1>
+    <ul class="listcard"></ul>
+    <div class="checkout">
+        <div class="total" onclick="dathang()">0</div>
+        <div class="closeshopping">thoát</div>
+    </div>
+</div>
+
+@*<div class="container">
+    <header>
+        <h1>Tất cả sản phẩm </h1>
+    </header>
+
+    <div class="list"></div>
+</div>
+<div class="card">
+    <h1><b>Giỏ Hàng</b></h1>
+    <ul class="listCard"></ul>
+    <div class="checkOut">
+        <div class="total" onclick="dathang()">0</div>
+        <div class="closeShopping">Thoát</div>
+    </div>
+</div>*@
+
+
+

@@ -1,0 +1,49 @@
+﻿@using QLBHQLN.Models;
+@using QLBHQLN.ViewModels;
+@model List<CartItem>
+@{
+    ViewBag.Title = "Giohang";
+    Layout = "~/Views/Shares/_LayoutUser.cshtml";
+}
+<h2>Giỏ hàng</h2>
+<div id="cart-content">
+    
+    @if (Model != null && Model.Count > 0)
+    {
+        foreach (var item in Model)
+        {
+            <div class="cart-item">
+                <button class="xoa-cartitem" data-product-id="@item.Product.ProductId"><span class="fas fa-times"></span></button>
+                <img src="~/Images/@item.Product.ProductImage" alt="sp">
+                <div class="content">
+                    <h3>@item.Product.ProductName</h3>
+                    <div class="price">@item.Product.Price</div>
+                    <div class="quantity">Số lượng: @item.Soluong</div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Bạn chưa có mặt hàng nào trong giỏ hàng!</p>
+    }
+</div>
+<button id="checkOrder" class="btn">ĐẶT HÀNG</button>
+
+<div class="add-pd">
+    <div class="add-pd-content">
+        <h2>THÔNG TIN KHÁCH HÀNG <img src="~/Images/close.png" alt="x" class="add-close"></h2>
+        <form action="@Url.Action("")" id="add-pro">
+            <p>Thông Tin Khách Hàng</p>
+
+            <label for="kh-name">Tên Khách Hàng:</label>
+            <input type="text" name="tenkh" placeholder="Tên Khách Hàng..." id="kh-name">
+            <label for="kh-diachi">Địa chỉ:</label>
+            <input type="text" name="diachi" placeholder="Địa chỉ..." id="kh-diachi">
+            <label for="kh-sdt">SĐT:</label>
+            <input type="text" name="sdt" placeholder="SĐT..." id="kh-sdt">
+
+            <input type="submit" class="addpro" value="OK">
+        </form>
+    </div>
+</div>

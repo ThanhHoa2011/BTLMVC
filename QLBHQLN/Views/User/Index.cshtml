@@ -1,0 +1,113 @@
+﻿@using QLBHQLN.Models;
+@model List<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shares/_LayoutUser.cshtml";
+}
+<div id="banner">
+    <div class="box-left">
+        <h2>
+            <span>YANN & MEOW</span>
+            <br>
+            <span>SHOP QUÀ LƯU NIỆM</span>
+        </h2>
+        <p>Yann & Meow shop chuyên bán các sản phẩm handmade như: gấu bông, thiệp, scrapbook, hoa,...và các sản phẩm handmade khác. Giá thành hợp lý phù hợp với điều kiện kinh tế, nhanh tay lựa chọn.</p>
+        <button>MUA NGAY</button>
+    </div>
+    <div class="box-right">
+        <img src="~/Images/bnn.png" alt="" style="width: 400px; height: 400px;">
+    </div>
+    <div class="to-bottom">
+        <img src="~/Images/icons8-arrow-50 (1).png" alt="">
+    </div>
+</div>
+<div id="wp-products">
+    <h2>SẢN PHẨM CỦA SHOP</h2>
+    <ul id="list-products">
+        @foreach (var item1 in Model)
+        {
+            <div class="item" onclick="chitietsp('product1')">
+                <img src="~/Images/@item1.ProductImage" style="width: 200px; height: 200px;" alt="">
+                <div class="stars">
+                    <span>
+                        <img src="~/Images/icons8-star-30.png" alt="" style="width: 30px; height: 30px;">
+                    </span>
+                    <span>
+                        <img src="~/Images/icons8-star-30.png" alt="" style="width: 30px; height: 30px;">
+                    </span>
+                    <span>
+                        <img src="~/Images/icons8-star-30.png" alt="" style="width: 30px; height: 30px;">
+                    </span>
+                    <span>
+                        <img src="~/Images/icons8-star-30.png" alt="" style="width: 30px; height: 30px;">
+                    </span>
+                    <span>
+                        <img src="~/Images/icons8-star-30.png" alt="" style="width: 30px; height: 30px;">
+                    </span>
+                </div>
+                <div class="name">@item1.ProductName</div>
+                <div class="price">@item1.Price</div>
+                <div class="them"></div>
+            </div>
+        }
+
+        <!-- Repeat similar blocks for other products -->
+    </ul>
+
+    <div class="saleoff">
+        <div class="box-left">
+            <h1>
+                <span>SỐC!!</span>
+                <span>KHÔNG GIẢM</span>
+            </h1>
+        </div>
+        <div class="box-right">
+            <img src="~/Images/scrapbook3.jpeg" alt="" style="width: 500px; height: 320px;">
+        </div>
+    </div>
+
+    <div id="comment">
+        <h2>ĐÁNH GIÁ CỦA KHÁCH HÀNG</h2>
+        <div id="comment-body">
+            <div class="prev">
+                <a href="#">
+                    <img src="~/Images/icons8-arrow-50.png" alt="">
+                </a>
+            </div>
+            <ul id="list-comment">
+                <li class="item">
+                    <div class="avatar">
+                        <img src="~/Images/OIP.jpg" style="width: 70px; height: 70px;" alt="">
+                    </div>
+                    <div class="stars">
+                        <span>
+                            <img src="~/Images/icons8-star-30.png" alt="">
+                        </span>
+                        <span>
+                            <img src="~/Images/icons8-star-30.png" alt="">
+                        </span>
+                        <span>
+                            <img src="~/Images/icons8-star-30.png" alt="">
+                        </span>
+                        <span>
+                            <img src="~/Images/icons8-star-30.pngg" alt="">
+                        </span>
+                        <span>
+                            <img src="~/Images/icons8-star-30.png" alt="">
+                        </span>
+                    </div>
+                    <div class="name">Trần Như Ngọc</div>
+                    <div class="text">
+                        <p>The product is absolutely amazing, I have bought 10 products from this shop so far for my relatives to use and they are extremely durable. It's not a coincidence that I praise this shop. There is nothing that is both high quality and extremely cheap.</p>
+                    </div>
+                </li>
+                <!-- Repeat similar blocks for other comments -->
+            </ul>
+            <div class="next">
+                <a href="#">
+                    <img src="~/Images/icons8-arrow-50 (2).png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

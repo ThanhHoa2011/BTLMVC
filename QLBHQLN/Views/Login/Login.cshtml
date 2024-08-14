@@ -1,0 +1,86 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/CSS/login.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- LOGIN FORM CREATION -->
+    <div class="background"></div>
+    <div class="container">
+        <div class="item">
+            <h2 class="logo"><i class='bx bxl-xing'></i>Yan & Meow</h2>
+            <div class="text-item">
+                <h2>
+                    Welcom to <br><span>
+                        CUA HANG QUA LUU NIEM!
+                    </span>
+                </h2>
+                <p>Den va mua ngay nhung mon qua nho xinh cho nguoi than yeu cua minh ! </p>
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="login-section">
+            <div class="form-box login">
+                <form id="tk">
+                    <h2>LOG IN</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" name="email" id="Email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" name="password" id="Pass" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-password">
+                        <a href="#">Forget Password</a>
+                    </div>
+                    <input type="submit" class="btn" name="dangnhap" value="Log in">
+                    <div class="create-account">
+                        <p>Do not have an account?? <a href="#" class="register-link">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <form id="dk">
+
+                    <h2>SIGN UP</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" name="email1" id="Email1" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" name="matkhau" id="Pass1" required>
+                        <label>password</label>
+                    </div>
+                    <input class="btn" type="submit" name="dangky" value="Sign Up">
+                    <div class="create-account">
+                        <p>Do you have account? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- SIGN UP FORM CREATION -->
+    <script src="~/JS/login.js"></script> 
+</body>
+</html>

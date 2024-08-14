@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/CSS/caidat.css" rel="stylesheet" />
+    <link href="~/CSS/dsdh.css" rel="stylesheet" />
+    <link href="~/CSS/qlsp.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <img src="~/Images/logo (1).png" width="30px" height="30px" alt="">
+            <span class="logo_name">Admin</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="@Url.Action("Admin", "Admin")">
+                    <i class="bx bx-box"></i>
+                    <span class="links_name">QUẢN LÝ SẢN PHẨM</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("AdminQLDH", "Admin")">
+                    <i class="bx bx-list-ul"></i>
+                    <span class="links_name">DANH SÁCH ĐẶT HÀNG</span>
+                </a>
+            </li>
+            
+            <!-- <li>
+              <a href="thongke.html">
+                <i class="bx bx-pie-chart-alt-2"></i>
+                <span class="links_name">THỐNG KÊ</span>
+              </a>
+            </li> -->
+            @*<li>
+                <a href="caidat.html">
+                    <i class="bx bx-cog"></i>
+                    <span class="links_name">CÀI ĐẶT</span>
+                </a>
+            </li>*@
+            <li class="log_out">
+                <a href="@Url.Action("Dangxuat","Login", new { area = "" })">
+                    <i class="bx bx-log-out"></i>
+                    <span class="links_name">ĐĂNG XUẤT</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <nav>
+            <div class="sidebar-button">
+                <i class="bx bx-menu sidebarBtn"></i>
+                <span class="dashboard">QUẢN LÝ SẢN PHẨM</span>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search..." />
+                <i class="bx bx-search"></i>
+            </div>
+            <div class="profile-details">
+                <img src="~/Images/logo (1).png" alt="" />
+                <span class="admin_name">Yann&Meow</span>
+                <i class="bx bx-chevron-down"></i>
+            </div>
+        </nav>
+    </section>
+     <div>
+     @RenderBody()
+ </div>
+    <script src="~/JS/qlsp.js"></script>  
+    <script src="~/JS/Admin.js"></script>
+   
+</body>
+</html>

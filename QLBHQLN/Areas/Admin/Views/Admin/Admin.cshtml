@@ -1,0 +1,99 @@
+﻿@using QLBHQLN.Models;
+@model List<Product>
+@{
+    ViewBag.Title = "Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-box">
+    <div class="sp">
+        <button id="add-pd"><span>+</span> Thêm SP</button>
+        <div class="add-pd">
+            <div class="add-pd-content">
+                <h2>THÊM SẢN PHẨM <img src="~/Images/close.png" alt="x" class="add-close"></h2>
+                <form id="add-pro" action="@Url.Action("AddProducts", "Admin")" method="post" enctype="multipart/form-data">
+                    <p>Thông tin sản phẩm</p>
+                    <!-- <label for="pd-id">Mã Sản Phẩm:</label>
+    <input type="text" name="pro-id" placeholder="Mã sản phẩm..." id="pd-id" disabled> -->
+                    <label for="pd-name">Tên Sản Phẩm:</label>
+                    <input type="text" name="ProductName" placeholder="Tên sản phẩm..." id="pd-name">
+                    <label for="pd-quantity">Số Lượng Sản Phẩm:</label>
+                    <input type="text" name="Soluongton" placeholder="Số lượng sản phẩm..." id="pd-quantity">
+                    <label for="pd-price">Giá Sản Phẩm:</label>
+                    <input type="text" name="Price" placeholder="Gía sản phẩm..." id="pd-price">
+
+                    <label for="image">Chọn Tệp:</label>
+                    <input type="file" name="fileUpload" id="image">
+                    <label for="pd-classify">Loại:</label>
+                    <select name="Maloai" id="pd-classify" required>
+                        <option value="">--Chọn loại--</option>
+                        <option value="1">Hoa Handmade</option>
+                        <option value="2">Đất Sét</option>
+                        <option value="3">Khung Tranh/ Ảnh</option>
+                        <option value="4">Gấu</option>
+                    </select>
+                    <input type="submit" class="addpro" name="ok" value="OK">
+                </form>
+            </div>
+        </div>
+
+        <div class="edit-pd">
+            <div class="edit-pd-content">
+                <h2> CẬP NHẬT SẢN PHẨM <img src="~/Images/close.png" alt="x" class="edit-close"></h2>
+                <form id="edit-pro" action="@Url.Action("EditProducts", "Admin")" method="post" enctype="multipart/form-data">
+                    <p>Thông tin sản phẩm</p>
+                    <input type="hidden" name="ProductId" placeholder="Mã sản phẩm..." id="up-pd-id">
+                    <label for="up-pd-name">Tên Sản Phẩm:</label>
+                    <input type="text" name="ProductName" Soluongton="Tên sản phẩm..." id="up-pd-name">
+                    <label for="up-pd-quantity">Số Lượng Sản Phẩm:</label>
+                    <input type="text" name="Soluongton" placeholder="Số lượng sản phẩm..." id="up-pd-quantity">
+                    <label for="up-pd-price">Giá Sản Phẩm:</label>
+                    <input type="text" name="Price" placeholder="Giá sản phẩm..." id="up-pd-price">
+
+                    <label for="up-image">Chọn Tệp:</label>
+                    <input type="file" name="fileUpload" id="up-image">
+                    <label for="pd-classify">Loại:</label>
+                    <select name="Maloai" id="pd-classify" required>
+                        <option value="">--Chọn loại--</option>
+                        <option value="1">Hoa Handmade</option>
+                        <option value="2">Đất Sét</option>
+                        <option value="3">Khung Tranh/ Ảnh</option>
+                        <option value="4">Gấu</option>
+                    </select>
+                    <input type="submit" class="editpro" name="update" value="CẬP NHẬT">
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <table>
+        <tr>
+            <th>Mã Sản Phẩm</th>
+            <th>Tên Sản Phẩm</th>
+            <th>Ảnh</th>
+            <th>Số Lượng</th>
+            <th>Giá</th>
+            <th>Quản Lý</th>
+        </tr>
+        <!-- Example static row, you can replace this with your data -->
+        @foreach (var item in Model)
+            {
+               <tr class="manage">
+                   <td class="stt">@item.ProductId</td>
+                   <td class="gm">@item.ProductName</td>
+                   <td><img src="~/Images/@item.ProductImage" alt="img"></td>
+                   <td>@item.Soluongton</td>
+                   <td>@item.Price</td>
+                   <td class="edit">
+                       <form action="@Url.Action("DeleteProducts", "Admin", new {id = item.ProductId})" method="get">
+                           <input class="ed" type="button" name="editpd" value="Edit" onclick="editProduct('@item.ProductId','@item.ProductName', '@item.ProductImage', '@item.Soluongton', '@item.Price', '@item.Maloai', '@item.Mota')">
+                           <input class="de" type="submit" name="del" value="Delete">
+                       </form>
+                   </td>
+               </tr>
+            }
+    
+        <!-- Add more static rows as needed -->
+    </table>
+</div>
+

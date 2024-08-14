@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|c:\\phan thi bich huyen_vo thi thanh hoa\\qlbhqln\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\views\\user\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|solutionrelative:views\\user\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\viewmodels\\formdh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|solutionrelative:viewmodels\\formdh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\js\\cartsp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|solutionrelative:js\\cartsp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\views\\user\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|solutionrelative:views\\user\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|solutionrelative:views\\shares\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2236D26F-2314-4394-B36D-1368ECDA2E96}|QLBHQLN.csproj|solutionrelative:css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 799,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDH.cs",
+              "DocumentMoniker": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\ViewModels\\FormDH.cs",
+              "RelativeDocumentMoniker": "ViewModels\\FormDH.cs",
+              "ToolTip": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\ViewModels\\FormDH.cs",
+              "RelativeToolTip": "ViewModels\\FormDH.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:31:43.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Giohang.cshtml",
+              "DocumentMoniker": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Views\\User\\Giohang.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Giohang.cshtml",
+              "ToolTip": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Views\\User\\Giohang.cshtml",
+              "RelativeToolTip": "Views\\User\\Giohang.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAIwCMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T05:12:40.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAiwH8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T05:11:10.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Views\\User\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Cart.cshtml",
+              "ToolTip": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Views\\User\\Cart.cshtml",
+              "RelativeToolTip": "Views\\User\\Cart.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T02:49:02.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartSP.js",
+              "DocumentMoniker": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\JS\\CartSP.js",
+              "RelativeDocumentMoniker": "JS\\CartSP.js",
+              "ToolTip": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\JS\\CartSP.js",
+              "RelativeToolTip": "JS\\CartSP.js",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-13T17:45:44.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Views\\Shares\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shares\\_LayoutUser.cshtml",
+              "ToolTip": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\Views\\Shares\\_LayoutUser.cshtml",
+              "RelativeToolTip": "Views\\Shares\\_LayoutUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T02:49:29.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cart.css",
+              "DocumentMoniker": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\CSS\\cart.css",
+              "RelativeDocumentMoniker": "CSS\\cart.css",
+              "ToolTip": "C:\\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\\QLBHQLN\\CSS\\cart.css",
+              "RelativeToolTip": "CSS\\cart.css",
+              "ViewState": "AQIAABwBAAAAAAAAAAAAAC4BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T06:40:47.871Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 799,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

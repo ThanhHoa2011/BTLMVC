@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/CSS/sale.css" rel="stylesheet" type="text/css" />
+    <link href="~/CSS/trangchu.css" rel="stylesheet" />
+    <link href="~/CSS/cart.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="#" class="logo">
+                <img src="~/Images/logo (1).png" style="width:150px; height:150px;" alt="">
+            </a>
+            <div id="menu">
+                <div class="item">
+                    <a href="@Url.Action("Index", "User")">TRANG CHỦ</a>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("Cart", "User")">SẢN PHẨM</a>
+                </div>
+                <div class="item">
+                    <a href="https://www.facebook.com/profile.php?id=100095235735695">LIÊN HỆ</a>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="">
+                <img src="~/Images/icons8-search-24.png" style="width:25px; height:25px;" alt="">
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <img src="~/Images/user 1.png" alt="" style="width: 30px; height: 30px;">
+                    <div class="submenu">
+                        <form action="@Url.Action("Dangxuat", "Login")" method="post">
+                            <input type="submit" name="logout" value="Đăng xuất">
+                        </form>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("Giohang","User")">
+                        <div class="shopping">
+                            <img src="~/Images/cart.png" style="width: 30px; height:30px;">
+                            <span class="quantity">0</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            @RenderBody()
+        </div>
+
+        <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="~/Images/logo (1).png" alt="" style="width: 130px; height: 130px;">
+                </div>
+                <p>Cung cấp những sản phẩm lưu niệm ý nghĩa cho quý khách</p>
+            </div>
+            <div class="box">
+                <h3>NỘI DUNG</h3>
+                <ul class="quickmenu">
+                    <div class="item">
+                        <a href="#">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <a href="@Url.Action("Cart", "User")">Sản phẩm</a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.facebook.com/profile.php?id=100095235735695">Liên hệ</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>LIÊN HỆ</h3>
+                <a href="https://www.facebook.com/profile.php?id=100095235735695">
+                    <img src="~/Images/2023_Facebook_icon.svg.png" style="width: 50px; height: 50px;" alt="">
+                </a>
+                <a href="https://www.instagram.com/lesleyqing2908/">
+                    <img src="~/Images/instagram.png" style="width: 60px; height: 60px; margin-bottom: -5px;" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="~/JS/CartSP.js"></script>
+</body>
+</html>

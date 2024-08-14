@@ -1,0 +1,152 @@
+C:\HUYEN\QLBHQLN\bin\QLBHQLN.dll.config
+C:\HUYEN\QLBHQLN\bin\QLBHQLN.dll
+C:\HUYEN\QLBHQLN\bin\QLBHQLN.pdb
+C:\HUYEN\QLBHQLN\bin\roslyn\csc.exe
+C:\HUYEN\QLBHQLN\bin\roslyn\csc.exe.config
+C:\HUYEN\QLBHQLN\bin\roslyn\csc.rsp
+C:\HUYEN\QLBHQLN\bin\roslyn\csi.exe
+C:\HUYEN\QLBHQLN\bin\roslyn\csi.exe.config
+C:\HUYEN\QLBHQLN\bin\roslyn\csi.rsp
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\HUYEN\QLBHQLN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.AppContext.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Collections.Immutable.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Console.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Globalization.Calendars.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.IO.Compression.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.IO.FileSystem.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Net.Http.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Net.Sockets.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Reflection.Metadata.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.ValueTuple.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Xml.XPath.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\HUYEN\QLBHQLN\bin\roslyn\vbc.exe
+C:\HUYEN\QLBHQLN\bin\roslyn\vbc.exe.config
+C:\HUYEN\QLBHQLN\bin\roslyn\vbc.rsp
+C:\HUYEN\QLBHQLN\bin\roslyn\VBCSCompiler.exe
+C:\HUYEN\QLBHQLN\bin\roslyn\VBCSCompiler.exe.config
+C:\HUYEN\QLBHQLN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\HUYEN\QLBHQLN\bin\Microsoft.Web.Infrastructure.dll
+C:\HUYEN\QLBHQLN\bin\System.Web.Helpers.dll
+C:\HUYEN\QLBHQLN\bin\System.Web.Mvc.dll
+C:\HUYEN\QLBHQLN\bin\System.Web.Razor.dll
+C:\HUYEN\QLBHQLN\bin\System.Web.Webpages.Deployment.dll
+C:\HUYEN\QLBHQLN\bin\System.Web.Webpages.dll
+C:\HUYEN\QLBHQLN\bin\System.Web.Webpages.Razor.dll
+C:\HUYEN\QLBHQLN\bin\System.Web.Razor.xml
+C:\HUYEN\QLBHQLN\bin\System.Web.Webpages.xml
+C:\HUYEN\QLBHQLN\bin\System.Web.Webpages.Deployment.xml
+C:\HUYEN\QLBHQLN\bin\System.Web.Webpages.Razor.xml
+C:\HUYEN\QLBHQLN\bin\System.Web.Helpers.xml
+C:\HUYEN\QLBHQLN\bin\System.Web.Mvc.xml
+C:\HUYEN\QLBHQLN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\HUYEN\QLBHQLN\obj\Debug\QLBHQLN.csproj.AssemblyReference.cache
+C:\HUYEN\QLBHQLN\obj\Debug\QLBHQLN.csproj.CoreCompileInputs.cache
+C:\HUYEN\QLBHQLN\obj\Debug\QLBHQLN.csproj.Up2Date
+C:\HUYEN\QLBHQLN\obj\Debug\QLBHQLN.dll
+C:\HUYEN\QLBHQLN\obj\Debug\QLBHQLN.pdb
+C:\HUYEN\QLBHQLN\bin\EntityFramework.dll
+C:\HUYEN\QLBHQLN\bin\EntityFramework.SqlServer.dll
+C:\HUYEN\QLBHQLN\bin\EntityFramework.xml
+C:\HUYEN\QLBHQLN\bin\EntityFramework.SqlServer.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\QLBHQLN.dll.config
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\QLBHQLN.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\QLBHQLN.pdb
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\csc.exe
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\csc.exe.config
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\csc.rsp
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\csi.exe
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\csi.exe.config
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\csi.rsp
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.AppContext.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Collections.Immutable.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Console.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.IO.Compression.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.IO.FileSystem.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Net.Http.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Net.Sockets.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.ValueTuple.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Xml.XPath.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\vbc.exe
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\vbc.exe.config
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\vbc.rsp
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\VBCSCompiler.exe
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\roslyn\VBCSCompiler.exe.config
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\EntityFramework.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\EntityFramework.SqlServer.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\Microsoft.Web.Infrastructure.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Helpers.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Mvc.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Razor.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Webpages.Deployment.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Webpages.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Webpages.Razor.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\EntityFramework.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\EntityFramework.SqlServer.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Razor.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Webpages.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Webpages.Deployment.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Webpages.Razor.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Helpers.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\System.Web.Mvc.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\obj\Debug\QLBHQLN.csproj.AssemblyReference.cache
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\obj\Debug\QLBHQLN.csproj.CoreCompileInputs.cache
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\obj\Debug\QLBHQLN.csproj.Up2Date
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\obj\Debug\QLBHQLN.dll
+C:\Phan Thi Bich Huyen_Vo Thi Thanh Hoa\QLBHQLN\obj\Debug\QLBHQLN.pdb
